@@ -1,7 +1,7 @@
 import React from "react/addons";
 let { TestUtils } = React.addons;
 
-import LandingPage from "../../src/pages/landing/page";
+import LandingPage from "../../components/LandingPage/LandingPage";
 
 
 describe("LandingPage Component", function() {

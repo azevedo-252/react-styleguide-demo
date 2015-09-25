@@ -1,7 +1,7 @@
 import React from "react";
 import { getData } from "../../common/request";
 import CSSModules from 'react-css-modules';
-import styles from "./landing.css";
+import styles from "./LandingPage.css";
 
 @CSSModules(styles)
 export default class LandingPage extends React.Component {

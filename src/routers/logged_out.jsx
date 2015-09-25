@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, DefaultRoute, RouteHandler } from "react-router";
 
-import LandingPage from "../pages/landing/page";
+import LandingPage from "../components/LandingPage/LandingPage";
 
 
 export default class LoggedOutRouter extends React.Component {

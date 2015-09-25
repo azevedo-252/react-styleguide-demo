@@ -1,7 +1,7 @@
 import React from "react/addons";
 let { TestUtils } = React.addons;
 
-import HomePage from "../../src/pages/home/page";
+import HomePage from "../../components/HomePage/HomePage";
 
 
 describe("HomePage Component", function() {

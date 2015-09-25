@@ -1,7 +1,7 @@
 import React from "react";
 import { getData } from "../../common/request";
 import CSSModules from 'react-css-modules';
-import styles from "./home.css";
+import styles from "./HomePage.css";
 
 @CSSModules(styles)
 export default class HomePage extends React.Component {

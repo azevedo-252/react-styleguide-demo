@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, DefaultRoute, RouteHandler, Link } from "react-router";
 
-import HomePage from "../pages/home/page";
+import HomePage from "../components/HomePage/HomePage";
 
 
 export default class LoggedInRouter extends React.Component {
