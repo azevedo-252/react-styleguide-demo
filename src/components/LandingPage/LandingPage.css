@@ -1,28 +1,69 @@
-.content {
-  margin-top: 50px;
-}
+@import "../../../node_modules/prismjs/themes/prism.css";
 
-.heading {
-  font-size: 10vw;
-}
+:global .Styleguide {
+  font-family: 'Open Sans', sans-serif;
 
-.lead {
-  display: inline-block;
-  margin-right: 20px;
-  font-size: 3vw;
-}
+  &-header {
+    height: 5rem;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: #272822;
+    color: white;
+    > h1 {
+      font-family: 'Open Sans', sans-serif;
+      padding-left: 2rem;
+      font-weight: 100;
+      margin: 0;
+      line-height: 5rem;
+    }
+  }
 
-.signUpButton {
-  display: inline-block;
-  padding: 1vw 2vw;
-  border: 0;
-  font-size: 2vw;
+  &-sidebar {
+    position: fixed;
+    top: 5rem;
+    left: 0;
+    height: 100%;
+    width: 12.5rem;
+    border-right: solid 1px #eee;
 
-  background-color: #4B9DA3;
-  color: #f3f3f3;
+    > ul {
+      list-style-type: none;
+      padding-left: 0;
 
-  cursor: pointer;
-  border-radius: 2px;
-  text-shadow: 0px 1px 1px rgba(0,0,0,0.5);
-  box-shadow: 0px 5px 25px -5px rgba(0,0,0,0.5);
+      li {
+        position: relative;
+        text-align: center;
+        transition: background-color 150ms linear;
+        a {
+          text-decoration: none;
+          color: black;
+          width: 100%;
+          padding: 1rem 0;
+          display: block;
+        }
+        &:hover {
+          background-color: #eee;
+          transition: background-color 150ms linear;
+        }
+      }
+    }
+  }
+
+  &-components {
+    position: relative;
+    margin-left: 12.5rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    &-component {
+      padding-top: 4rem;
+
+      &-example {
+        border: solid 1px #eeeeee;
+        padding: 1rem;
+      }
+    }
+  }
 }
