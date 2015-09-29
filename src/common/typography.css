@@ -1,0 +1,50 @@
+:root {
+  --fontSize-base: 16px;
+  --fontSize-small: 12px;
+  --fontSize-large: 20px;
+  --lineHeight-base: 24px;
+  --lineHeight-small: 20px;
+  --lineHeight-large: 28px;
+  --fontName: 'proxima-nova';
+  --pageFont: var(--fontName) helvetica arial, sans-serif;
+}
+
+.FontFamily {
+  font-family: var(--pageFont);
+}
+
+.FontSize-base {
+  font-size: var(--fontSize-base);
+}
+
+.FontSize-small {
+  font-size: var(--fontSize-small);
+}
+
+.FontSize-large {
+  line-height: var(--fontSize-large) + var(--lineHeight-basis);
+}
+
+.LineHeight-base {
+  line-height: var(--lineHeight-base);
+}
+
+.LineHeight-small {
+  line-height: var(--lineHeight-small);
+}
+
+.LineHeight-large {
+  line-height: var(--lineHeight-large);
+}
+
+.FontWeight-light {
+  font-weight: 300;
+}
+
+.FontWeight-regular {
+  font-weight: 400;
+}
+
+.FontWeight-bold {
+  font-weight: 700;
+}

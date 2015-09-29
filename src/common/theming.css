@@ -1,0 +1,34 @@
+:root {
+  --borderRadius: 4px;
+  --borderWidth-default: 1px;
+  --borderWidth-large: 2px;
+
+  --bluey-grey: #94a7b7;
+  --light-blue-grey: #d6e2ea;
+  --light-mustard: #f5bf66;
+  --light-navy-blue: #2a567c;
+  --soft-grey: #f0f4f6;
+  --topaz: #1dbccf;
+  --white: #fff;
+
+  --textColor: var(--light-navy-blue);
+  --pageBackground: var(--soft-grey);
+  --accentColor-1: var(--topaz);
+  --accentColor-2: var(--light-mustard);
+
+  --textColor-primary: var(--light-navy-blue);
+  --textColor-secondary: var(--bluey-grey);
+  --backgroundColor-block-primary: var(--soft-grey);
+  --backgroundColor-block-secondary: var(--light-blue-grey);
+  --backgroundColor-contentArea: var(--white);
+  --action-primary-backgroundColor: var(--accentColor-1);
+  --action-primary-textColor: var(--white);
+  --action-primary-borderColor: var(--accentColor-1);
+  --action-secondary-backgroundColor: var(--white);
+  --action-secondary-textColor: var(--accentColor-2);
+  --action-secondary-borderColor: var(--accentColor-2);
+
+  --defaultDuration: 0.2s;
+  --defaultEasing: ease-in-out;
+}
+

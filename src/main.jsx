@@ -13,7 +13,8 @@ import Router from "react-router";
 import Session from "./common/session";
 
 // Base styling
-import "./common/base.css";
+import "./common/reset.css";
+import "./common/site.css";
 
 // Routers
 import LoggedOutRouter from "./routers/logged_out";

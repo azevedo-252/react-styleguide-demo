@@ -1,0 +1,30 @@
+@import "./typography.css";
+@import "./theming.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+:global .Site {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+
+  background: var(--pageBackground);
+  color: var(--textColor);
+
+  font-family: var(--pageFont);
+  font-size: var(--fontSize-base);
+  line-height: var(--lineHeight-base);
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
