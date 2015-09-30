@@ -18,9 +18,11 @@
 
   --textColor-primary: var(--light-navy-blue);
   --textColor-secondary: var(--bluey-grey);
+
   --backgroundColor-block-primary: var(--soft-grey);
   --backgroundColor-block-secondary: var(--light-blue-grey);
   --backgroundColor-contentArea: var(--white);
+
   --action-primary-backgroundColor: var(--accentColor-1);
   --action-primary-textColor: var(--white);
   --action-primary-borderColor: var(--accentColor-1);
@@ -30,5 +32,8 @@
 
   --defaultDuration: 0.2s;
   --defaultEasing: ease-in-out;
-}
 
+  --floatingShadow:
+    0 4px 10px 0 rgba(43, 78, 112, 0.15),
+    0 1px 4px 0 rgba(43, 78, 112, 0.10);
+}

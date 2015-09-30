@@ -1,0 +1,10 @@
+:root {
+  --spacing-small: 10px;
+  --spacing-medium: 20px;
+  --spacing-large: 40px;
+  --maxWidth-content: 960px;
+}
+
+.content-maxWidth {
+  max-width: var(--maxWidth-content);
+}

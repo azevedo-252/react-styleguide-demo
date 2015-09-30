@@ -9,42 +9,42 @@
   --pageFont: var(--fontName) helvetica arial, sans-serif;
 }
 
-.FontFamily {
+.fontFamily {
   font-family: var(--pageFont);
 }
 
-.FontSize-base {
+.fontSize-base {
   font-size: var(--fontSize-base);
 }
 
-.FontSize-small {
+.fontSize-small {
   font-size: var(--fontSize-small);
 }
 
-.FontSize-large {
+.fontSize-large {
   line-height: var(--fontSize-large) + var(--lineHeight-basis);
 }
 
-.LineHeight-base {
+.lineHeight-base {
   line-height: var(--lineHeight-base);
 }
 
-.LineHeight-small {
+.lineHeight-small {
   line-height: var(--lineHeight-small);
 }
 
-.LineHeight-large {
+.lineHeight-large {
   line-height: var(--lineHeight-large);
 }
 
-.FontWeight-light {
+.fontWeight-light {
   font-weight: 300;
 }
 
-.FontWeight-regular {
+.fontWeight-regular {
   font-weight: 400;
 }
 
-.FontWeight-bold {
+.fontWeight-bold {
   font-weight: 700;
 }
